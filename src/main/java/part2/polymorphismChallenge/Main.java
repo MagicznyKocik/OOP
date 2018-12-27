@@ -7,7 +7,7 @@ class Car {
     private int cylinders;
     private int wheels;
 
-    public Car(String name, int cylinders) {
+    Car(String name, int cylinders) {
         this.name = name;
         this.engine = true;
         this.cylinders = cylinders;
